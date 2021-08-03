@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    text-align: center;
+    margin-top: 800px;
+    
+}
+#hobbyimg{
+    width: 150px;
+    border-radius: 30%;
+    margin-bottom: 50px;
+}
+#hello{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+color:darkred;
+height: 800px;
+width: 100%;
+display: table;
+background: linear-gradient(palevioletred 0%,midnightblue 13%,deeppink 29%,#7DF9FF 48%,#FF00FF 67%,#BF40BF 89%,#0F52BA 100% ) ;
+z-index: 9;
+}
+
+#bioofhobby{
+    padding: 50px;
+    text-align:center ;
+    font-size: 40px;
+    background:linear-gradient( mediumpurple 0%,deepskyblue 14%, violet 27%, salmon 32%,aqua  43%, teal 57%, deeppink 100%) ;
+}
+.line{
+    height: 6px;
+    width: 80px;
+    background-color:rebeccapurple;
+    margin: 8px auto;
+}
+p{
+    max-width: 400px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.menu{
+    list-style:none;
+    font-family:cursive;
+    position: absolute;
+    top: 15px;
+    right:2px;
+    z-index:10;
+    cursor:pointer;
+}
+.link{
+    float:left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 23.5px;
+    color:mintcream;
+}
+.link:hover{
+    background-color:orchid;
+}
+.profile{
+    text-align: center;
+    vertical-align: middle;
+    display:table-cell;
+    position: relative;
+}
